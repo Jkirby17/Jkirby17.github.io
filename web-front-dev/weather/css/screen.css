@@ -1,5 +1,21 @@
-/*The sequence that css follows
-imports
-general rrules
-mobile rrules
-large(er) rrules*/
+/* ******************************
+*  Stylesheet for Screened Devices
+*  Created by: Jacquelyn Kirby
+*  
+*  1.  Includes (fonts and supplementary stylesheets)
+*  1.1 Normalize
+*  1.2 Google fonts
+*
+*  2.  General Styles (for all pages and devices)
+*
+*  3.  Mobile First (styles specific to small screens)
+*
+*  4.  Large Screen Styles (Media Queries begin here)
+*
+* ****************************** */
+
+
+/*normalize.css file*/
+@import url('normalize.css'); 
+/*Sansita google font*/
+@import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
