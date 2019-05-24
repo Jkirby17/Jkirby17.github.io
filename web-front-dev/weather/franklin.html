@@ -6,13 +6,13 @@
   <meta name="description" content="Basic daily weather page with information about Franklin, ID.">
   <meta name="viewport" content="width=device-width">
   <meta name="autor" content="Jacquelyn Kirby">
-  <link rel="stylesheet" type="text/css" href="/weather/css/screen.css" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="/web-front-dev/weather/css/screen.css" media="screen"> 
  </head>
  <body>  
      <div>
         <header>
             <img src="/web-front-dev/weather/images/weather-site-images/logo.jpg" alt="weather logo">
-            <h1>The Weather Site</h1>
+            <p id="site-brand">The Weather Site</p>
                </header>
                <nav>
                 <ul>
@@ -35,14 +35,14 @@
                 </dl>
             </section>
         <div id="todweather">
-            <section id="temp"> 
+            <section id="temp" class="title"> 
                 <h2>Temperature</h2>
                 <p id="ctemp">40&deg; F</p>
                 <p id="hitemp" style="color:red;">64&deg; F</p>
                 <p id="lotemp"  style="color:blue;">41&deg; F</p>
                 <p id="feel">Feels like</p>
             </section>
-            <section id="wind">
+            <section id="wind" class="title">
                  <h2>Wind</h2>
                  <img src="/web-front-dev/weather/images/weather-site-images/wind-pointer.png" alt="direction of the wind image">
                  <ul>
@@ -52,7 +52,7 @@
                     </ul>
 
             </section>
-            <section>
+            <section id="summary" class="title">
                 <img src="images/weather-site-images/rain.jpg" alt="rain image">
                 <h2>Current Conditions</h2>
                 <ul>
