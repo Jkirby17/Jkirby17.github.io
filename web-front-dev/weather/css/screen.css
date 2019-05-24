@@ -45,9 +45,10 @@ html {
     display: inline-block; 
     list-style: none; 
   }
-  nav ul li { 
-    display: inline-block; 
-    list-style: none; 
+  nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
   footer{
     margin-bottom: 2em;
