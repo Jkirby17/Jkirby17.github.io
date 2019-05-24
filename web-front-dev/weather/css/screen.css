@@ -31,7 +31,7 @@ html {
    #page-header{
        background-color: #0e89d5;
        display:flex;
-       
+
    }
    body{
     font-family: helvetica, verdana, sans-serif;
@@ -63,5 +63,44 @@ html {
     font-weight: 600;
   }
 
+  /*
+#page-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ #page-nav ul li{
+     min-height: 40px;
+ }
 
+
+
+  #page-nav a{
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      padding: 1em;
+  }
   
+  #wind .northMark{
+      font-size smaller;
+      margin:-.5em 0 0 0;
+      text-align: center;
+  }
+  #wind {
+    position: realtive;
+  }
+  
+  #wind-speed{
+      widthL100%;
+      text-align: center;
+      --
+  body>div {
+      width: 100vw;
+  }
+  #page-header img{
+      width: 10%;
+      height: 50%;
+      margin-right:.5em;
+  }
+  */
