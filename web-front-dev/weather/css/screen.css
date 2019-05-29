@@ -61,7 +61,8 @@ html {
    #site-brand {
     font-size: 5em;
     font-weight: 600;
-    overflow: auto;
+    text-align: center;
+
   }
   #imlogo{
     max-width: 200px;
