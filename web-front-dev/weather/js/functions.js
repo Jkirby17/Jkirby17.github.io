@@ -1,2 +1,11 @@
 // Weather Site JavaScript Functions
-Console.log('My javascript is being read.');
+console.log('My javascript is being read.');
+
+
+// Calculate the Windchill
+function buildWC(speed, temp) {
+
+}
+
+
+
