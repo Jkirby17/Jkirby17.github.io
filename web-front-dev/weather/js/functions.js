@@ -1,2 +1,2 @@
 // Weather Site JavaScript Functions
-console.log('My javascript is being read.');
+Console.log('My javascript is being read.');
