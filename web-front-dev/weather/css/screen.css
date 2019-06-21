@@ -70,7 +70,7 @@ html {
   background-color: blue;
   }
   #loc{
-    flex-flow: row;
+      display: inline;
   }
 
   /*
