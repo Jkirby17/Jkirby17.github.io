@@ -72,6 +72,9 @@ html {
   #loc{
       display: inline;
   }
+  li {
+    display: inline;
+  }
 
   /*
 #page-nav ul{
