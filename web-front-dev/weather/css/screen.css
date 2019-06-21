@@ -69,12 +69,7 @@ html {
   height: 200px;
   background-color: blue;
   }
-  #loc{
-      display: inline;
-  }
-  dl {
-    display: inline;
-  }
+
 
   /*
 #page-nav ul{
