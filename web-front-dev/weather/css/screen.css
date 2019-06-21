@@ -81,9 +81,6 @@ footer {
   display: inline;
   margin: 0%;
   padding-left: 10px;
-
-
-
 }
 
 #logo {
@@ -99,10 +96,41 @@ footer {
 
 #loc {
   display: flex;
-  margin: 40px;
+  margin: 10px;
 }
 
-#summ {
+#zip {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#Elev {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#elev {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#loca {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#latLong {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+}
+
+# #summ {
   max-width: 370px;
   height: 400px;
 }
