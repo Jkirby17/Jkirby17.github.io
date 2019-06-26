@@ -4,7 +4,7 @@ let contentContainer = document.getElementById('main-content');
 let hourlyList = document.getElementById("hourlyData");
 
 pageNav.addEventListener("click", function (evt) {
-    let cityName = evt.target
+    let cityName = evt.target.innerHTML;
 
 }) //ends the event listener
 
@@ -26,4 +26,4 @@ fetch(weatherURL)
 
 
 //}..ends function
-}) // ends the event listener
+// }) // ends the event listener
