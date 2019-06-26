@@ -196,10 +196,12 @@ footer {
 #hlyfct {
   display: flex;
   overflow: auto;
-  width: 313px;
-  height: 25px;
-  overflow-x: scroll;
   list-style: none;
+  white-space: nowrap;
+}
+
+#hlyfct li {
+  margin: 2px;
 }
 
 /*  large-wireframe  */
