@@ -157,6 +157,7 @@ footer {
 #hitemp {
   color: rgb(179, 20, 20);
   font-size: 30px;
+  padding-right: 20px;
 }
 
 #lotemp {
@@ -179,6 +180,11 @@ footer {
   text-align: center;
 }
 
+#windinfo {
+  list-style: none;
+  padding-right: 44px;
+}
+
 #summary {
   text-align: center;
 }
@@ -186,6 +192,12 @@ footer {
 #summ {
   max-width: 370px;
   height: 400px;
+}
+
+#condinfo {
+  list-style: none;
+  padding-right: 44px;
+
 }
 
 #hourlyforecast {
