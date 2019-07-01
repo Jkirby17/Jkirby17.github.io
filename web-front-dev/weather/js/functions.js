@@ -1,6 +1,13 @@
 // Weather Site JavaScript Functions
 console.log('My javascript is being read.');
 
+
+// Variables for Function Use
+let temp = 31;
+let speed = 5;
+buildWC(speed, temp);
+
+
 // Calculate the Windchill
 function buildWC(speed, temp) {
 
