@@ -1,0 +1,226 @@
+/* ******************************
+*  Stylesheet for Screened Devices
+*  Created by: Jacquelyn Kirby
+*  
+*  1.  Includes (fonts and supplementary stylesheets)
+*  1.1 Normalize
+*  1.2 Google fonts
+*
+*  2.  General Styles (for all pages and devices)
+*
+*  3.  Mobile First (styles specific to small screens)
+*
+*  4.  Large Screen Styles (Media Queries begin here)
+*
+* ****************************** */
+
+
+/*normalize.css file*/
+@import url('normalize.css');
+/*Sansita google font*/
+@import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
+
+/*General Styles*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#page-header {
+  background-color: #0e89d5;
+  display: flex;
+  width: max-content;
+
+}
+
+body {
+  font-family: helvetica, verdana, sans-serif;
+  font-size: 11px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sansita, Eurostyle, sans-serif;
+}
+
+.tile {
+  background-color: rgba(200, 200, 200, .6);
+  margin: .2em auto;
+  border: 1px solid;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+nav ul li {
+  /* display: inline-block; */
+  list-style: none;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: aliceblue;
+  width: 100%;
+
+}
+
+footer {
+  margin-bottom: 60px;
+}
+
+#site-brand {
+  font-size: 40px;
+  font-weight: 600;
+  display: inline;
+  margin: 0%;
+  padding-left: 10px;
+}
+
+#logo {
+  display: flex;
+  height: 40px;
+
+}
+
+#imlogo {
+  max-width: 90px;
+  height: 40px;
+  background-color: blue;
+}
+
+#loc {
+  display: flex;
+  margin: 10px;
+}
+
+#location1 {
+  font-size: 30px;
+}
+
+#zip {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#Elev {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#elev {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#loca {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#latLong {
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+#temp {
+  text-align: center;
+}
+
+#ctemp {
+  font-size: 100px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hitemp {
+  color: rgb(179, 20, 20);
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+#lotemp {
+  color: blue;
+  font-size: 30px;
+}
+
+#feel {
+  font-size: 30px;
+}
+
+#wind {
+  text-align: center;
+
+}
+
+#wind .northMark {
+  font-size: smaller;
+  margin: -.5em 0 0 0;
+  text-align: center;
+}
+
+#windinfo {
+  list-style: none;
+  padding-right: 44px;
+}
+
+#summary {
+  text-align: center;
+}
+
+#summ {
+  max-width: 370px;
+  height: 400px;
+}
+
+#condinfo {
+  list-style: none;
+  padding-right: 44px;
+
+}
+
+#hourlyforecast {
+  text-align: center;
+
+}
+
+#hlyfct {
+  display: flex;
+  overflow: auto;
+  list-style: none;
+  white-space: nowrap;
+}
+
+#hlyfct li {
+  margin: 2px;
+}
+
+/*  large-wireframe  */
+@media screen and (min-width:400px) {
+  #tiles {
+    display: flex;
+  }
+
+
+}

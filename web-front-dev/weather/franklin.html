@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Franklin, ID | The Weather Site</title>
+    <meta name="description" content="Basic daily weather page with information about Franklin, ID.">
+    <meta name="viewport" content="width=device-width">
+    <meta name="autor" content="Jacquelyn Kirby">
+    <link rel="stylesheet" type="text/css" href="/web-front-dev/weather/css/screen.css" media="screen">
+</head>
+
+<body>
+    <header id="page-header">
+        <div id="logo">
+            <img id="imlogo" src="/web-front-dev/weather/images/weather-site-images/logo.jpg" alt="weather logo">
+            <p id="site-brand">The Weather Site</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://jkirby17.github.io/web-front-dev/weather/weatherplan.html"
+                    title="Go to the Weather Site home page">Current</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Franklin</a></li>
+            <li><a href="#">Greenville</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="location-info">
+            <h1 id="location1">Franklin, ID</h1>
+            <dl id="loc">
+                <dt><b>Zip:</b></dt>
+                <dd id="zip">83237<b>|</b></dd>
+                <dt id="elev"><b>Elevation:</b></dt>
+                <dd id="Elev">1514.246 m<b>|</b></dd>
+                <dt id="loca"><b>Location:</b></dt>
+                <dd id="latLong">42.07, 111.79</dd>
+            </dl>
+        </section>
+        <div id="tiles">
+            <div id="todweather">
+                <section id="temp" class="tile">
+                    <h2>Temperature</h2>
+                    <p id="ctemp">40&deg; F</p>
+                    <p>
+                        <span id="hitemp">64&deg; F</span>
+                        <span id="lotemp">41&deg; F</span>
+                    </p>
+                    <p id="feel">Feels like <span id="feelTemp">??</span>°F</p>
+
+                </section>
+            </div>
+            <section id="wind" class="tile">
+                <h2>Wind</h2>
+                <p class="northmark">N</p>
+                <img src="/web-front-dev/weather/images/weather-site-images/wind-pointer.png"
+                    alt="direction of the wind image">
+                <ul id="windinfo">
+                    <li id="windSpeed"><b>Wind:</b>5mph</li>
+                    <li id="windDirection"><b>Direction:</b> SW</li>
+                    <li id="windGusts"><b>Gusts:</b> 10-12mph</li>
+                </ul>
+
+            </section>
+            <section id="summary" class="tile">
+                <img id="summ" src="images/weather-site-images/rain.jpg" alt="rain image">
+                <h2 id="curcon">Current Conditions</h2>
+                <ul id="condinfo">
+                    <li>Rain</li>
+                </ul>
+            </section>
+        </div>
+        <section id="hourlyforecast" class="tile">
+            <h2>Hourly Forecast</h2>
+            <ul id="hlyfct">
+                <li><span>10am: 41&deg; F</span></li>
+                <li><span>11am: 41&deg; F</span></li>
+                <li>12pm: 41&deg; F</li>
+                <li>1pm: 41&deg; F</li>
+                <li>2pm: 41&deg; F</li>
+                <li>3pm: 41&deg; F</li>
+                <li>4pm: 42&deg; F</li>
+                <li>5pmL 44&deg; F</li>
+                <li>6pm: 44&deg; F</li>
+                <li>7pm: 46&deg; F</li>
+                <li>8pm: 49&deg; F</li>
+                <li>9pm: 51&deg; F</li>
+                <li>10pm: 55&deg; F</li>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+        &copy;2019, The Weather Site
+    </footer>
+    <script src="/web-front-dev/weather/js/functions.js"></script>
+</body>
+
+</html>
